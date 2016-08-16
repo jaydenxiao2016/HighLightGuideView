@@ -9,7 +9,7 @@
 （4）蒙层颜色setMaskColor
 （5）高亮控件padding,setHighLisghtPadding
 
-使用方法：
+使用方法：dd
 
 1、全屏提示，没高亮控件情况引导
 

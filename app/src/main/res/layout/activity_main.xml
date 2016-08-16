@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context="jaydenxiao.com.highlightguideview_master.MainActivity">
+   <FrameLayout
+       android:id="@+id/fl"
+       android:layout_width="match_parent"
+       android:layout_height="100dp"></FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl2"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/fl"
+        android:layout_height="match_parent">
+    <Button
+        android:id="@+id/bt_top_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/main_color"
+        android:textColor="@color/white"
+        android:text="左上角椭圆" />
+
+    <Button
+        android:id="@+id/bt_top_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@color/main_color"
+        android:textColor="@color/white"
+        android:text="右上角矩形" />
+
+
+        <Button
+        android:id="@+id/bt_middle"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/circle_button" />
+
+    <Button
+        android:id="@+id/bt_bottom_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/main_color"
+        android:textColor="@color/white"
+        android:text="左下角矩形" />
+    <Button
+        android:id="@+id/bt_bottom_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/main_color"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="右下角椭圆" />
+    </RelativeLayout>
+</RelativeLayout>

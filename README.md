@@ -25,6 +25,7 @@
                         .addHighLightGuidView(view, R.drawable.dmtext)
                         .setHighLightStyle(HighLightGuideView.VIEWSTYLE_OVAL)
                         .show();
+
 **3. 有高亮控件情况引导（多个高亮控件）**
     HighLightGuideView.builder(this)
                         .addHighLightGuidView(view1, R.drawable.dstext)

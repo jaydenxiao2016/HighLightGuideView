@@ -1,4 +1,4 @@
-package com.jaydenxiao.library;
+package com.jaydenxiao.guider;
 
 import android.app.Activity;
 import android.content.Context;

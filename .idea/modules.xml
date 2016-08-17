@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/HighLightGuideView.iml" filepath="$PROJECT_DIR$/HighLightGuideView.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Library/Library.iml" filepath="$PROJECT_DIR$/Library/Library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guider/Library.iml" filepath="$PROJECT_DIR$/guider/Library.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/guider/guider.iml" filepath="$PROJECT_DIR$/guider/guider.iml" />
     </modules>
   </component>
 </project>

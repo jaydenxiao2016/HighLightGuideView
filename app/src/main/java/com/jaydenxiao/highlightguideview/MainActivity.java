@@ -6,7 +6,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 
-import com.jaydenxiao.library.HighLightGuideView;
+import com.jaydenxiao.guider.HighLightGuideView;
 
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {

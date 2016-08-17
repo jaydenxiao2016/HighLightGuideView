@@ -9,15 +9,15 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/Library" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/guider" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/Library" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/guider" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -15,21 +15,21 @@
 
 **1. 全屏提示，没高亮控件情况引导**
 
- HighLightGuideView.builder(this)
+  HighLightGuideView.builder(this)
                 .addNoHighLightGuidView(R.drawable.listlead)
                 .setMaskColor(getResources().getColor(R.color.mask_color))
                 .show();
 
 **2. 有高亮控件情况引导（单个高亮控件）**
    
-   HighLightGuideView.builder(this)
+  HighLightGuideView.builder(this)
                         .addHighLightGuidView(view, R.drawable.dmtext)
                         .setHighLightStyle(HighLightGuideView.VIEWSTYLE_OVAL)
                         .show();
 
 **3. 有高亮控件情况引导（多个高亮控件）**
     
-    HighLightGuideView.builder(this)
+  HighLightGuideView.builder(this)
                         .addHighLightGuidView(view1, R.drawable.dstext)
                         .addHighLightGuidView(view2, R.drawable.dmtext)
                         .setHighLightStyle(HighLightGuideView.VIEWSTYLE_OVAL)

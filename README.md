@@ -14,6 +14,7 @@
 **使用方法：**
 
 dependencies {
+
              compile 'com.jaydenxiao:guider:1.0.0'
     }
 

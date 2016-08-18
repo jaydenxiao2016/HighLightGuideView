@@ -13,6 +13,10 @@
 
 **使用方法：**
 
+dependencies {
+             compile 'com.jaydenxiao:guider:1.0.0'
+    }
+
 **1. 全屏提示，没高亮控件情况引导**
 
   HighLightGuideView.builder(this)
